@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milandweep's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f5f5dc 0%, #ffe4e1 100%); /* Beige to light pink gradient */
+            color: #8b4513; /* Saddle brown for text contrast */
+            text-align: center;
+        }
+        header {
+            background-color: #ffb6c1; /* Light pink */
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #daa520; /* Goldenrod for a pretty accent */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            background-color: #f5deb3; /* Wheat (beige) */
+            padding: 10px;
+            border-bottom: 2px solid #ffb6c1;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b4513;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #daa520;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #daa520;
+            margin-bottom: 20px;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ffb6c1;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .portfolio-item h3 {
+            margin: 10px 0;
+            color: #8b4513;
+        }
+        .portfolio-item p {
+            color: #696969;
+        }
+        footer {
+            background-color: #f5deb3; /* Wheat (beige) */
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 2px solid #ffb6c1;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Milandweep</h1>
+        <p>Interior & Graphic Designer Portfolio</p>
+    </header>
+    <nav>
+        <a href="#interior">Interior Projects</a>
+        <a href="#graphic">Graphic Projects</a>
+        <a href="#sketches">Sketches & Ideas</a>
+        <a href="#about">About</a>
+    </nav>
+    <section id="interior">
+        <h2>Interior Projects</h2>
+        <p>Showcasing my work in interior design, from concept to completion.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="placeholder-interior1.jpg" alt="Interior Project 1">
+                <h3>Modern Living Room</h3>
+                <p>A cozy, minimalist design with beige accents and pink highlights.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder-interior2.jpg" alt="Interior Project 2">
+                <h3>Kitchen Renovation</h3>
+                <p>Functional and stylish kitchen makeover.</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+    <section id="graphic">
+        <h2>Graphic Projects</h2>
+        <p>Explore my graphic design creations, including logos, posters, and branding.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="placeholder-graphic1.jpg" alt="Graphic Project 1">
+                <h3>Brand Logo Design</h3>
+                <p>Elegant logo with beige and pink color scheme.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder-graphic2.jpg" alt="Graphic Project 2">
+                <h3>Poster Series</h3>
+                <p>Creative posters for events and promotions.</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+    <section id="sketches">
+        <h2>Sketches, Doodles, Mockups & Design Ideas</h2>
+        <p>A collection of my initial sketches, doodles, mockups, and creative ideas that inspire my work.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="placeholder-sketch1.jpg" alt="Sketch 1">
+                <h3>Concept Sketch</h3>
+                <p>Hand-drawn ideas for interior layouts.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder-doodle1.jpg" alt="Doodle 1">
+                <h3>Creative Doodle</h3>
+                <p>Fun doodles exploring design themes.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder-mockup1.jpg" alt="Mockup 1">
+                <h3>Digital Mockup</h3>
+                <p>Mockups for graphic projects.</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Milandweep, a passionate designer specializing in interiors and graphics. I love blending creativity with functionality to create beautiful spaces and visuals. Get in touch to collaborate!</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Milandweep. All rights reserved. | Contact: your.milandweepool5@gmail.com</p>
+    </footer>
+</body>
+</html>
